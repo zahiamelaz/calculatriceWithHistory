@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Scientifique</title>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+    <link rel="stylesheet" href="stylecalculate.css">
+</head>
+<body>
+    <main>
+        <div id="history">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+        </div>
+        <form name="calc" class="calculate">
+            <div class="input">
+                <input type="text" name="box" placeholder="0" class="inputArea">  
+            </div>
+            <div class="buttons">    
+                <button type="button" class="button" onclick="squar();">x<sup>2</button>
+                <button type="button" class="button" onclick="cubed();">x<sup>3</button>
+                <button type="button" class="button" onclick="facto();">a!</button>
+                <button type="button" class="buttonlast" onclick="calc.box.value=''">AC</button>
+            </div>
+            <div class="buttons">
+                <button type="button" class="button" onclick="cosin();">cos</button>
+                <button type="button" class="button" onclick="sine();">sin</button>
+                <button type="button" class="button" onclick="tann();">tan</button>
+                <button type="button" class="button" onclick="perc()">%</button>
+            </div>
+            <div class="buttons">
+                <button type="button" class="button" onclick="cuberoot();">&#8731</button>
+                <button type="button" class="button" onclick="squaroot();">&#8730</button>
+                <button type="button" class="button" onclick="calc.box.value+=')'">)</button>
+                <button type="button" class="button" onclick="calc.box.value+='('">(</button>
+            </div>
+            <div class="buttons">
+                <button type="button" class="button" onclick="calc.box.value+='7'">7</button>
+                <button type="button" class="button" onclick="calc.box.value+='8'">8</button>
+                <button type="button" class="button" onclick="calc.box.value+='9'">9</button>
+                <button type="button" class="button" onclick="calc.box.value+='/'">/</button>
+               
+            </div>
+            <div class="buttons">
+                <button type="button" class="button" onclick="calc.box.value+='4'">4</button>
+                <button type="button" class="button" onclick="calc.box.value+='5'">5</button>
+                <button type="button" class="button" onclick="calc.box.value+='6'">6</button>
+                <button type="button" class="button" onclick="calc.box.value+='-'">-</button>
+              
+            </div>
+            <div class="buttons">
+                <button type="button" class="button" onclick="calc.box.value+='1'">1</button>
+                <button type="button" class="button" onclick="calc.box.value+='2'">2</button>
+                <button type="button" class="button" onclick="calc.box.value+='3'">3</button>
+                <button type="button" class="button" onclick="calc.box.value+='*'">*</button> 
+            </div>
+            <div class="buttons">
+                <button type="button" class="button" onclick="calc.box.value+='0'">0</button>
+                <button type="button" class="button" onclick="calc.box.value+='.'">.</button>
+                <button type="button" class="button" onclick="calc.box.value+='+'">+</button>
+                <button type="button" class="equal" onclick="calc.box.value=calculation(calc.box.value)">=</button>
+            </div>
+        </form>
+    </main> 
+<script src="jscalculate.js"></script> 
+</body>  
+</html>

@@ -1,0 +1,104 @@
+main{
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;    
+}
+.calculate{
+    display: flex;
+    flex-direction:column;
+    width: 300px;
+    height: 80%;
+    background-color: #000;
+   
+}
+.buttons{
+    display: flex;
+    flex-direction:row ;
+    background-color: black;
+    justify-content: space-around;
+    margin: 5px;
+    
+}
+.buttonlast{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid #15f4ee;
+    border-radius:100% ;
+    cursor: pointer;
+    transition: 1s;
+}
+.buttonlast:hover{
+    box-shadow: 0 3px 10px 0 #f02323 inset,0 3px 10px 0 #15f4ee,
+                0 3px 10px 0 #f41515 inset,0 3px 10px 0 #15f4ee;
+}
+.button{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #15f4ee;
+    border-radius:100% ;
+    cursor: pointer;
+    transition: 1s;
+}
+.button:hover{
+    box-shadow: 0 3px 10px 0 #15f4ee inset,0 3px 10px 0 #15f4ee,
+                0 3px 10px 0 #15f4ee inset,0 3px 10px 0 #15f4ee;
+}
+.equal{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #15f4ee;
+    border-radius:100% ;
+    cursor: pointer;
+    transition: 1s;
+}
+.equal:hover{
+    box-shadow: 0 3px 10px 0 #4223f0 inset,0 3px 10px 0 #15f4ee,
+                0 3px 10px 0 #2b15f4 inset,0 3px 10px 0 #15f4ee;
+}
+
+.inputArea{ 
+    height: 80px;
+    width: 280px;
+    background-color:#99eeeb;
+    color: black;
+    font-size: 25px;
+    text-align: right;
+    border-radius: 8px;
+    margin: 3px;
+}
+#history{
+    width: 300px; ;
+    height:auto;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    padding: 5px;
+   
+}
+
+#history ::-webkit-scrollbar{
+   width: 0;
+}
+#history i{
+    font-size: 1.2em;
+    float: right;
+    color: #000;
+}
+#history p:last-child{
+    font-size: 1.3em;
+    font-weight: 500;
+    color:#220de0;
+}
