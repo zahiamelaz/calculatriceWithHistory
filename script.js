@@ -44,18 +44,6 @@ function tann(){
     f=Math.tan(radian);
     document.calc.box.value=f.toFixed(2);
 }
-function loog(){
-    var radian,value;
-    radian=Math.asin(document.calc.box.value);
-    value=radian* 180/Math.PI;
-    document.calc.box.value=value.toFixed(2);
-}
-function tanr(){
-    var radian,value;
-    radian=Math.atan(document.calc.box.value);
-    value=radian* 180/Math.PI;
-    document.calc.box.value=value.toFixed(2);
-}
 function perc(){
     var x,result;
     x=eval(document.calc.box.value);
