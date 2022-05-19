@@ -81,21 +81,19 @@ main{
     margin: 3px;
 }
 #history{
-    width: 300px; ;
+    width: 300px;
     height:auto;
-    font-size: 1.1em;
-    box-sizing: border-box;
-    padding: 5px;
-   
+    font-size: 15px;
 }
 
 #history ::-webkit-scrollbar{
    width: 0;
 }
-#history i{
+i{
     font-size: 1.2em;
     float: right;
-    color: #000;
+    color: #19fafa;
+    padding: 5px;
 }
 #history p:last-child{
     font-size: 1.3em;

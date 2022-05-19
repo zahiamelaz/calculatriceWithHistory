@@ -62,4 +62,9 @@ function calculation(v){
 window.addEventListener('error',(e) =>{
     alert( 'error dans votre calcul: '+ e.message)
 });
+$(document).ready(function(){
+    $('.fa-solid').click(function(){
+        $('#history').toggle();
+    });
+});
 
